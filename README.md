@@ -15,6 +15,11 @@
     <a href="https://github.com/ntk148v/komau.vim/stargazers"> <img alt="GitHub stars" src="https://img.shields.io/github/stars/ntk148v/komau.vim?style=for-the-badge"> </a>
 </p>
 
+- [1. Installation](#1-installation)
+- [2. Usage](#2-usage)
+- [3. Credits](#3-credits)
+- [4. Contributions](#4-contributions)
+
 ## 1. Installation
 
 ## 2. Usage
@@ -26,6 +31,10 @@
 # For dark version
 :set background=dark
 ```
+
+![golang-dark](./screenshots/golang-dark.png)
+
+![golang-light](./screenshots/golang-light.png)
 
 ## 3. Credits
 
