@@ -22,6 +22,12 @@
 
 ## 1. Installation
 
+You can install `komau` with your plugin manager, for examplg [vim-plug](https://github.com/junegunn/vim-plug):
+
+```
+Plug 'ntk148v/komau.vim'
+```
+
 ## 2. Usage
 
 ```
