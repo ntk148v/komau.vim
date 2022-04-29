@@ -33,6 +33,7 @@ let s:blue            = {"gui": "#005CC5", "cterm": "26" }
 let s:background = &background
 
 if &background == "dark"
+  let s:fg              = s:white
   let s:bg              = s:black
   let s:bg_subtle       = s:lighter_black
   let s:bg_very_subtle  = s:subtle_black
@@ -40,6 +41,7 @@ if &background == "dark"
   let s:norm_subtle     = s:medium_gray
   let s:cursorlinenr    = s:white
 else
+  let s:fg              = s:black
   let s:bg              = s:white
   let s:bg_subtle       = s:light_gray
   let s:bg_very_subtle  = s:lightest_gray
@@ -77,10 +79,10 @@ hi! link Boolean          Constant
 hi! link Float            Constant
 hi! link String           Constant
 
-hi! link Identifier       Normal
+call s:h("Identifier",     {"fg": s:fg, "cterm": "italic", "gui": "italic"})
 hi! link Function         Identifier
 
-call s:h("Statement",     {"fg": s:norm_subtle, "cterm": "bold", "gui": "bold"})
+call s:h("Statement",     {"fg": s:fg, "cterm": "bold", "gui": "bold"})
 hi! link Conditonal       Statement
 hi! link Repeat           Statement
 hi! link Label            Statement
@@ -89,7 +91,7 @@ hi! link Exception        Statement
 
 call s:h("Operator",      {"fg": s:norm, "cterm": "bold", "gui": "bold"})
 
-call s:h("PreProc",     {"fg": s:norm_subtle})
+call s:h("PreProc",       {"fg": s:norm_subtle})
 hi! link Include          PreProc
 hi! link Define           PreProc
 hi! link Macro            PreProc
