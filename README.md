@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-    A minimal colorscheme for Vim/Neovim.
+    Yet another minimal colorscheme for Vim/Neovim.
 </p>
 <p align="center">
     <strong>komau</strong> -> <strong>không màu</strong> (Vietnamese) -> <strong>no color</strong> (English)
@@ -48,4 +48,4 @@ Based on the [off](https://github.com/pbrisbin/vim-colors-off) colorscheme.
 
 ## 4. Contributions
 
-If you find any problems with this color scheme please post an issue here on GitHub. If you don't like some specific color, please fork it instead and customize to your liking. Thanks!
+If you find any problems with this color scheme please post an issue here on GitHub.
