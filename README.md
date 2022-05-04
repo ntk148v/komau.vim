@@ -13,8 +13,8 @@
         <img alt="GitHub license" src="https://img.shields.io/github/license/ntk148v/komau.vim?style=for-the-badge">
     </a>
     <a href="https://github.com/ntk148v/komau.vim/stargazers"> <img alt="GitHub stars" src="https://img.shields.io/github/stars/ntk148v/komau.vim?style=for-the-badge"> </a>
-    <a href="https://github.com/ntk148v/komau.nvim/issues"><img src="https://img.shields.io/github/issues/ntk148v/komau.nvim?colorA=192330&colorB=dbc074&style=for-the-badge"></a>
-    <a href="https://github.com/ntk148v/komau.nvim/contributors"><img src="https://img.shields.io/github/contributors/ntk148v/komau.nvim?colorA=192330&colorB=81b29a&style=for-the-badge"></a>
+    <a href="https://github.com/ntk148v/komau.nvim/issues"><img src="https://img.shields.io/github/issues/ntk148v/komau.vim?colorA=192330&colorB=dbc074&style=for-the-badge"></a>
+    <a href="https://github.com/ntk148v/komau.nvim/contributors"><img src="https://img.shields.io/github/contributors/ntk148v/komau.vim?colorA=192330&colorB=81b29a&style=for-the-badge"></a>
 </p>
 
 <div align="center">
