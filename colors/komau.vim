@@ -204,3 +204,31 @@ hi link GitGutterAdd                LineNr
 hi link GitGutterDelete             LineNr
 hi link GitGutterChange             LineNr
 hi link GitGutterChangeDelete       LineNr
+
+
+" Markdown
+call s:h("markdownCode", { "fg": s:bg_subtle })
+call s:h("markdownLinkReference", { "fg": s:bg_subtle })
+call s:h("markdownJekyllFrontMatter", { "fg": s:bg_subtle })
+call s:h("markdownCodeBlock", { "fg": s:norm })
+call s:h("markdownCodeDelimiter", { "fg": s:norm })
+call s:h("markdownHeadingDelimiter", { "fg": s:fg })
+call s:h("markdownRule", { "fg": s:bg_subtle })
+call s:h("markdownHeadingRule", { "fg": s:bg_subtle })
+call s:h("htmlH1", { "fg": s:fg, "gui": "bold", "cterm": "bold" })
+call s:h("htmlH2", { "fg": s:fg, "gui": "bold", "cterm": "bold" })
+call s:h("htmlH3", { "fg": s:fg, "gui": "bold", "cterm": "bold" })
+call s:h("htmlH4", { "fg": s:fg, "gui": "bold", "cterm": "bold" })
+call s:h("htmlH5", { "fg": s:fg, "gui": "bold", "cterm": "bold" })
+call s:h("htmlH6", { "fg": s:fg, "gui": "bold", "cterm": "bold" })
+call s:h("mkdDelimiter", { "fg": s:fg })
+call s:h("markdownId", { "fg": s:light_gray })
+call s:h("markdownBlockquote", { "fg": s:bg_subtle })
+call s:h("markdownItalic", { "fg": s:light_gray, "gui": "italic", "cterm": "italic" })
+call s:h("mkdBold", { "fg": s:fg, "gui": "bold", "cterm": "bold" })
+call s:h("mkdInlineURL", { "fg": s:fg, "gui": "italic", "cterm": "italic" })
+call s:h("mkdListItem", { "fg": s:fg })
+call s:h("markdownOrderedListMarker", { "fg": s:fg })
+call s:h("mkdLink", { "fg": s:fg, "gui": "bold", "cterm": "bold" })
+call s:h("markdownLinkDelimiter", { "fg": s:fg })
+call s:h("mkdURL", { "fg": s:norm_subtle, "gui": "italic", "cterm": "italic" })
