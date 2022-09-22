@@ -16,7 +16,7 @@ let g:colors_name='komau'
 
 let s:black           = {"gui": "#222222", "cterm": "235"}
 let s:medium_gray     = {"gui": "#767676", "cterm": "243"}
-let s:white           = {"gui": "#F0F0F0", "cterm": "255"}
+let s:white           = {"gui": "#F5EEE6", "cterm": "255"}
 let s:light_black     = {"gui": "#424242", "cterm": "238"}
 let s:lighter_black   = {"gui": "#545454", "cterm": "240"}
 let s:subtle_black    = {"gui": "#303030", "cterm": "236"}
