@@ -17,10 +17,9 @@
     <a href="https://github.com/ntk148v/komau.nvim/contributors"><img src="https://img.shields.io/github/contributors/ntk148v/komau.vim?colorA=192330&colorB=81b29a&style=for-the-badge"></a>
 </p>
 
-<div align="center">
-    <h3>Dark</h3><img src="https://raw.githubusercontent.com/ntk148v/komau.vim/master/screenshots/golang-dark.png" alt="dark" style="border-radius:1%" />
-    <h3>Light</h3><img src="https://raw.githubusercontent.com/ntk148v/komau.vim/master/screenshots/golang-light.png" alt="dark" style="border-radius:1%" />
-</div>
+| Dark                                                                                                                                    | Light                                                                                                                                    |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://raw.githubusercontent.com/ntk148v/komau.vim/master/screenshots/golang-dark.png" alt="dark" style="border-radius:1%"/> | <img src="https://raw.githubusercontent.com/ntk148v/komau.vim/master/screenshots/golang-light.png" alt="dark" style="border-radius:1%"/> |
 
 - [1. Installation](#1-installation)
 - [2. Usage](#2-usage)
