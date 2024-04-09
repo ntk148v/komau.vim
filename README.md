@@ -41,11 +41,15 @@ use {"ntk148v/komau.vim"} -- Packer
 ## 2. Usage
 
 ```vim
-:colorscheme komau
-# For light version
-:set background=light
-# For dark version
-:set background=dark
+colorscheme komau
+" For light version
+set background=light
+" For dark version
+set background=dark
+" Disable italic, enable by default
+let g:komau_italic=0
+" Disable bold, enable by default
+let g:komau_bold=0
 ```
 
 ## 3. Credits
