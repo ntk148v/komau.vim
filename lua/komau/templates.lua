@@ -66,7 +66,7 @@ function M.apply(highlights, colors, config)
             result = fn.deep_extend("force", result, delta)
         elseif not ok then
             utils.schedule(function()
-                utils.notify(string.format("komau: template error: %s", delta), vim.log.levels.WARN)
+                utils.notify(string.format("komau: template error: %s", delta), require("komau.compat").levels.WARN)
             end)
         end
     end

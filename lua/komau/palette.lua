@@ -1,3 +1,4 @@
+local compat = require("komau.compat")
 local fn = require("komau.fn")
 
 local M = {}
@@ -138,7 +139,7 @@ local variants = {
 
 local function resolve_style(style)
     if style == "auto" then
-        return (vim.o.background == "light" and "light") or "dark"
+        return (compat.background() == "light" and "light") or "dark"
     end
     return variants[style] and style or "dark"
 end
