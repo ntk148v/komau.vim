@@ -1,3 +1,5 @@
+local compat = require("komau.compat")
+
 local registry = {
     { name = "core", module = "komau.highlights.core", optional = false },
     { name = "syntax", module = "komau.highlights.syntax", optional = false },
@@ -70,10 +72,10 @@ function M.collect(colors, config)
                     merge_meta(meta, chunk.meta)
                 end
             else
-                vim.schedule(function()
-                    vim.notify(
+                compat.schedule(function()
+                    compat.notify(
                         string.format("komau: failed to compute %s highlights: %s", name, chunk),
-                        vim.log.levels.WARN
+                        compat.levels.WARN
                     )
                 end)
             end
